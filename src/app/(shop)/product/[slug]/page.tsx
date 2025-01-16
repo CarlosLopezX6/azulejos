@@ -93,7 +93,7 @@ export default async function ProductBySlugPage({ params }: Props) {
       </div>
       
       {/* Detalles*/}
-      <div className="col-span-2 px-5">
+      <div className="col-span-2 md:mx-14">
         
         <StockLabel slug={ product.slug }/>
 
