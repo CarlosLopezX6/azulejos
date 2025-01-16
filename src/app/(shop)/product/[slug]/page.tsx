@@ -71,7 +71,7 @@ export default async function ProductBySlugPage({ params }: Props) {
 
 
   return (
-    <div className="mt-5 mb-20 grid grid-cols-1 md:grid-cols-3 gap-3 md:mx-52">
+    <div className="mt-5 mb-20 grid grid-cols-1 md:grid-cols-4 gap-3 md:mx-52">
 
       {/* Slideshow */}
       <div className="col-span-1 md:col-span-2">
@@ -93,7 +93,7 @@ export default async function ProductBySlugPage({ params }: Props) {
       </div>
       
       {/* Detalles*/}
-      <div className="col-span-1 px-5">
+      <div className="col-span-2 px-5">
         
         <StockLabel slug={ product.slug }/>
 
