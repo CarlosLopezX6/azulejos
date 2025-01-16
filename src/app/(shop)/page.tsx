@@ -31,7 +31,7 @@ export default async function Home({ searchParams }: Props) {
     <>
       <PrincipalSlider />
 
-      <div className="px-0 sm:px-10">
+      <div className="mx-10 md:mx-52">
         <Title 
           title="Tienda"
           subtitle="Todos los productos"

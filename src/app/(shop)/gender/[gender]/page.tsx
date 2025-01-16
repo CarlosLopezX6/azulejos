@@ -46,7 +46,7 @@ export default async function GenderByPage({ params, searchParams }: Props) {
 
 
   return (
-    <>
+    <div className="mx-10 md:mx-52">
       <Title 
         title={`Artículos ${ labels[gender] }`}
         subtitle="Todos los productos"
@@ -56,6 +56,6 @@ export default async function GenderByPage({ params, searchParams }: Props) {
       <ProductGrid products={ products} />
 
       {/* <Pagination totalPages={ totalPages }/> */}
-    </>
+    </div>
   );
 }
