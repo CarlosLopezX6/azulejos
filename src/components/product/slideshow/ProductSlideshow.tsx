@@ -40,6 +40,7 @@ export const ProductSlideshow = ({ title, images, className }: Props) => {
                 style={{
                     '--swiper-navigation-color': '#fff',
                     '--swiper-pagination-color': '#fff',
+                    'height': '400px',
                 } as React.CSSProperties } 
                 spaceBetween={10}
                 navigation={true}
@@ -56,7 +57,7 @@ export const ProductSlideshow = ({ title, images, className }: Props) => {
                         <SwiperSlide key={ image }>
                             <Image
                                 width={ 1024 }
-                                height={ 800 }
+                                height={ 400 }
                                 src={`/products/${ image }`}
                                 alt={ title }
                                 className='rounded-lg object-fill'
